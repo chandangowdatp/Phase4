@@ -1,0 +1,27 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <ul
+      class="nav navbar-nav"
+      routerLinkActive="active"
+    >
+    <li class="nav-item">
+      <a class="btn" routerLink="/home" style="margin: 5px;font-size: 20px;color: rgb(82, 44, 9);">MYPORTFOLIO</a>
+    </li>
+    <li class="nav-item">
+      <a class="btn" routerLink="/aboutus" style="margin: 5px">ABOUT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="btn" routerLink="/contactus" style="margin: 5px">CONTACT US</a>
+    </li>
+      <li class="nav-item">
+        <a class="btn" routerLink="/signin" style="margin: 5px">SIGN IN</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn" routerLink="/signup" style="margin: 5px">SIGN UP</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

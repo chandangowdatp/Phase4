@@ -1,0 +1,16 @@
+.fill {
+  height: 75% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ima {
+  height: 25px;
+  width: 25px;
+}
+
+
